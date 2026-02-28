@@ -1,1 +1,481 @@
-usa-cpa-directory-listmycpa.github.io index
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ListMyCPA.com – USA CPA Directory | Find Certified Public Accountants in America</title>
+  <meta name="description" content="ListMyCPA.com is the #1 CPA directory in the United States. Find verified Certified Public Accountants in all 50 states by city, specialization, and industry. 100% free CPA search." />
+  <meta name="keywords" content="CPA directory USA, find a CPA in America, certified public accountant near me, CPA listings United States, accountant directory USA, tax accountant near me, find CPA by state, best CPA USA, accounting firms America, local CPA search, tax preparation USA, IRS representation, bookkeeping services USA" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://usa-cpa-directory-listmycpa.github.io/" />
+  <meta property="og:title" content="ListMyCPA.com – #1 CPA Directory in the United States" />
+  <meta property="og:description" content="Find verified Certified Public Accountants across all 50 US states. Browse by specialization, industry, and city — 100% free." />
+  <meta property="og:url" content="https://usa-cpa-directory-listmycpa.github.io/" />
+  <meta property="og:type" content="website" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "ListMyCPA – USA CPA Directory",
+    "url": "https://listmycpa.com",
+    "description": "The United States most comprehensive directory of Certified Public Accountants. Find verified CPAs in all 50 states by specialization and industry.",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://listmycpa.com/certified-public-accountants?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,500&family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --navy:       #1a3a5c;
+      --navy-dark:  #0f2640;
+      --navy-mid:   #1e4d7b;
+      --blue:       #2471a3;
+      --gold:       #b7860b;
+      --gold-light: #d4a017;
+      --gold-bg:    #fef9ef;
+      --bg:         #f0f5fb;
+      --bg-white:   #ffffff;
+      --bg-soft:    #e8f0f8;
+      --text:       #12263a;
+      --text-mid:   #2c4a63;
+      --text-muted: #5c7a93;
+      --border:     #c8daea;
+      --border-s:   #ddeaf4;
+      --red:        #b22234;
+    }
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Lato', sans-serif; background: var(--bg); color: var(--text); overflow-x: hidden; }
+
+    /* HEADER */
+    header { background: var(--bg-white); border-bottom: 3px solid var(--navy); position: sticky; top: 0; z-index: 100; box-shadow: 0 2px 16px rgba(26,58,92,0.1); }
+    .hdr { max-width: 1160px; margin: 0 auto; padding: 0 2rem; display: flex; align-items: center; justify-content: space-between; height: 68px; }
+    .logo { font-family: 'Playfair Display', serif; font-size: 1.65rem; font-weight: 700; color: var(--navy); text-decoration: none; }
+    .logo span { color: var(--gold); }
+    .logo small { font-family: 'Lato', sans-serif; font-size: 0.62rem; font-weight: 900; letter-spacing: 2px; text-transform: uppercase; color: var(--red); margin-left: 0.5rem; vertical-align: middle; }
+    nav { display: flex; align-items: center; gap: 1.5rem; }
+    nav a { color: var(--text-mid); text-decoration: none; font-size: 0.88rem; font-weight: 700; transition: color 0.2s; }
+    nav a:hover { color: var(--navy); }
+    .btn-nav { background: var(--navy); color: #fff; padding: 0.5rem 1.3rem; border-radius: 5px; text-decoration: none; font-weight: 700; font-size: 0.87rem; transition: background 0.2s; }
+    .btn-nav:hover { background: var(--blue); }
+
+    /* HERO */
+    .hero { background: linear-gradient(150deg, var(--navy-dark) 0%, var(--navy) 55%, var(--navy-mid) 100%); padding: 6rem 2rem 5.5rem; text-align: center; position: relative; overflow: hidden; }
+    .hero::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse at 70% 20%, rgba(52,152,219,0.18) 0%, transparent 55%), radial-gradient(ellipse at 15% 80%, rgba(183,134,11,0.1) 0%, transparent 50%); pointer-events: none; }
+    .hero::after { content: ''; position: absolute; bottom: -1px; left: 0; right: 0; height: 55px; background: var(--bg); clip-path: ellipse(58% 100% at 50% 100%); }
+    .usa-badge { display: inline-flex; align-items: center; gap: 0.5rem; background: rgba(178,34,52,0.18); border: 1px solid rgba(178,34,52,0.45); color: #f4a0aa; font-size: 0.74rem; font-weight: 900; letter-spacing: 2px; text-transform: uppercase; padding: 0.42rem 1.1rem; border-radius: 999px; margin-bottom: 1.75rem; }
+    .hero h1 { font-family: 'Playfair Display', serif; font-size: clamp(2.2rem, 4.5vw, 3.6rem); font-weight: 700; color: #fff; line-height: 1.18; max-width: 860px; margin: 0 auto 1.4rem; }
+    .hero h1 em { font-style: italic; color: #f5d080; }
+    .hero-sub { color: rgba(255,255,255,0.72); font-size: 1.1rem; font-weight: 300; max-width: 640px; margin: 0 auto 2.75rem; line-height: 1.85; }
+    .hero-btns { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
+    .btn-gold { background: var(--gold-light); color: #fff; padding: 0.9rem 2.2rem; border-radius: 7px; text-decoration: none; font-weight: 900; font-size: 0.95rem; box-shadow: 0 4px 18px rgba(212,160,23,0.35); transition: background 0.2s, transform 0.15s; }
+    .btn-gold:hover { background: var(--gold); transform: translateY(-2px); }
+    .btn-ghost { background: transparent; color: #fff; border: 1.5px solid rgba(255,255,255,0.38); padding: 0.9rem 2.2rem; border-radius: 7px; text-decoration: none; font-weight: 700; font-size: 0.95rem; transition: all 0.2s; }
+    .btn-ghost:hover { border-color: #f5d080; color: #f5d080; transform: translateY(-2px); }
+
+    /* STATS */
+    .stats { background: var(--bg-white); border-bottom: 1px solid var(--border-s); box-shadow: 0 3px 14px rgba(26,58,92,0.07); }
+    .stats-row { max-width: 1160px; margin: 0 auto; display: grid; grid-template-columns: repeat(4,1fr); text-align: center; }
+    .stat { padding: 2.2rem 1rem; border-right: 1px solid var(--border-s); }
+    .stat:last-child { border-right: none; }
+    .stat-n { display: block; font-family: 'Playfair Display', serif; font-size: 2.3rem; font-weight: 700; color: var(--navy); line-height: 1; margin-bottom: 0.35rem; }
+    .stat-l { font-size: 0.74rem; font-weight: 900; color: var(--text-muted); letter-spacing: 1.2px; text-transform: uppercase; }
+
+    /* LAYOUT */
+    .sec { padding: 5rem 2rem; }
+    .sec-w { background: var(--bg-white); }
+    .sec-t { background: var(--bg-soft); }
+    .sec-n { background: var(--navy); }
+    .inner { max-width: 1160px; margin: 0 auto; }
+    .s-tag { font-size: 0.7rem; font-weight: 900; letter-spacing: 2.5px; text-transform: uppercase; color: var(--gold); margin-bottom: 0.5rem; }
+    h2 { font-family: 'Playfair Display', serif; font-size: clamp(1.8rem, 3vw, 2.55rem); font-weight: 700; color: var(--navy); line-height: 1.2; margin-bottom: 0.9rem; }
+    .lead { color: var(--text-muted); font-size: 1.05rem; font-weight: 300; line-height: 1.8; max-width: 620px; margin-bottom: 3rem; }
+
+    /* ABOUT */
+    .about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 4.5rem; align-items: center; }
+    .about-copy p { color: var(--text-mid); font-size: 0.97rem; line-height: 1.85; margin-bottom: 1.1rem; }
+    .btn-blue { display: inline-block; background: var(--navy); color: #fff; padding: 0.82rem 2rem; border-radius: 6px; text-decoration: none; font-weight: 700; font-size: 0.92rem; margin-top: 0.5rem; transition: background 0.2s, transform 0.15s; }
+    .btn-blue:hover { background: var(--blue); transform: translateY(-2px); }
+    .about-card { background: var(--bg-soft); border: 1px solid var(--border); border-radius: 14px; padding: 2.5rem; position: relative; overflow: hidden; }
+    .about-card::before { content: '🇺🇸'; position: absolute; top: -10px; right: -10px; font-size: 7rem; opacity: 0.06; }
+    .about-card-title { font-family: 'Playfair Display', serif; font-size: 1.15rem; font-weight: 700; color: var(--navy); margin-bottom: 1.25rem; }
+    .hi-list { list-style: none; }
+    .hi-list li { display: flex; align-items: flex-start; gap: 0.75rem; padding: 0.65rem 0; border-bottom: 1px solid var(--border-s); font-size: 0.9rem; color: var(--text-mid); }
+    .hi-list li:last-child { border-bottom: none; }
+    .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--gold); flex-shrink: 0; margin-top: 5px; }
+
+    /* STATES */
+    .states-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(175px,1fr)); gap: 0.6rem; }
+    .state-a { background: var(--bg-white); border: 1px solid var(--border); border-radius: 7px; padding: 0.75rem 1rem; text-decoration: none; color: var(--text-mid); font-size: 0.88rem; font-weight: 700; display: flex; align-items: center; justify-content: space-between; transition: all 0.18s; }
+    .state-a:hover { background: var(--navy); color: #fff; border-color: var(--navy); transform: translateY(-2px); box-shadow: 0 4px 14px rgba(26,58,92,0.15); }
+    .arr { font-size: 0.75rem; opacity: 0.4; }
+
+    /* SPECIALIZATIONS */
+    .spec-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(265px,1fr)); gap: 0.75rem; }
+    .spec-a { background: var(--bg-white); border: 1px solid var(--border); border-left: 4px solid var(--navy); border-radius: 7px; padding: 0.9rem 1.2rem; text-decoration: none; color: var(--text-mid); font-size: 0.88rem; font-weight: 700; display: flex; align-items: center; gap: 0.6rem; transition: all 0.18s; }
+    .spec-a:hover { background: var(--navy); color: #fff; border-left-color: var(--gold-light); transform: translateY(-2px); box-shadow: 0 4px 14px rgba(26,58,92,0.15); }
+    .si { font-size: 1rem; flex-shrink: 0; }
+
+    /* INDUSTRIES */
+    .ind-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px,1fr)); gap: 0.7rem; }
+    .ind-a { background: var(--bg-white); border: 1px solid var(--border); border-radius: 7px; padding: 0.82rem 1.1rem; text-decoration: none; color: var(--text-mid); font-size: 0.87rem; font-weight: 700; display: flex; align-items: center; gap: 0.6rem; transition: all 0.18s; }
+    .ind-a:hover { background: var(--gold-bg); border-color: var(--gold); color: var(--gold); transform: translateY(-2px); }
+
+    /* WHY */
+    .why-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px,1fr)); gap: 1.5rem; }
+    .why-card { background: rgba(255,255,255,0.07); border: 1px solid rgba(255,255,255,0.1); border-radius: 12px; padding: 2rem; transition: border-color 0.2s; }
+    .why-card:hover { border-color: rgba(212,160,23,0.5); }
+    .wi { font-size: 2rem; margin-bottom: 1rem; }
+    .why-card h3 { font-family: 'Playfair Display', serif; font-size: 1.15rem; color: #fff; margin-bottom: 0.5rem; }
+    .why-card p { color: rgba(255,255,255,0.55); font-size: 0.88rem; line-height: 1.7; }
+
+    /* REGISTER */
+    .reg-strip { background: var(--gold-bg); border-top: 1px solid #ead08a; border-bottom: 1px solid #ead08a; padding: 3.5rem 2rem; }
+    .reg-inner { max-width: 1160px; margin: 0 auto; display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: center; }
+    .reg-inner p { color: var(--text-mid); font-size: 0.97rem; line-height: 1.8; margin-bottom: 1.25rem; }
+    .reg-inner ul { list-style: none; margin-bottom: 1.5rem; }
+    .reg-inner ul li { display: flex; align-items: center; gap: 0.6rem; font-size: 0.9rem; color: var(--text-mid); padding: 0.3rem 0; }
+    .reg-inner ul li::before { content: '✓'; color: var(--gold); font-weight: 900; }
+
+    /* CTA */
+    .cta { background: linear-gradient(135deg, var(--navy-dark), var(--navy-mid)); padding: 5rem 2rem; text-align: center; }
+    .cta h2 { color: #fff; margin-bottom: 0.75rem; }
+    .cta p { color: rgba(255,255,255,0.65); font-size: 1.05rem; margin-bottom: 2.25rem; max-width: 520px; margin-left: auto; margin-right: auto; }
+
+    /* FOOTER */
+    footer { background: #0c1e30; padding: 4rem 2rem 2.5rem; }
+    .ft { max-width: 1160px; margin: 0 auto; }
+    .ft-top { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 3rem; padding-bottom: 3rem; border-bottom: 1px solid rgba(255,255,255,0.08); margin-bottom: 2rem; }
+    .ft-logo { font-family: 'Playfair Display', serif; font-size: 1.5rem; font-weight: 700; color: #fff; text-decoration: none; }
+    .ft-logo span { color: var(--gold-light); }
+    .ft-desc { color: rgba(255,255,255,0.42); font-size: 0.87rem; line-height: 1.75; margin-top: 0.75rem; }
+    .usa-lbl { display: inline-block; background: rgba(178,34,52,0.25); border: 1px solid rgba(178,34,52,0.4); color: #f4a0aa; font-size: 0.67rem; font-weight: 900; letter-spacing: 1.5px; text-transform: uppercase; padding: 0.28rem 0.7rem; border-radius: 4px; margin-top: 0.75rem; }
+    .ft-col h4 { color: #fff; font-size: 0.77rem; font-weight: 900; letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 1.1rem; }
+    .ft-col a { display: block; color: rgba(255,255,255,0.42); text-decoration: none; font-size: 0.87rem; margin-bottom: 0.5rem; transition: color 0.2s; }
+    .ft-col a:hover { color: var(--gold-light); }
+    .ft-bot { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; font-size: 0.82rem; color: rgba(255,255,255,0.3); }
+    .ft-bot a { color: var(--gold-light); text-decoration: none; }
+
+    .view-all { text-align: center; margin-top: 2rem; }
+
+    @media(max-width:900px) {
+      .about-grid, .reg-inner { grid-template-columns: 1fr; }
+      .ft-top { grid-template-columns: 1fr 1fr; }
+      .stats-row { grid-template-columns: repeat(2,1fr); }
+    }
+    @media(max-width:600px) {
+      nav { display: none; }
+      .ft-top { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header>
+  <div class="hdr">
+    <a href="https://listmycpa.com/" class="logo">ListMy<span>CPA</span><small>🇺🇸 USA</small></a>
+    <nav>
+      <a href="https://listmycpa.com/certified-public-accountants">By State</a>
+      <a href="https://listmycpa.com/certified-public-accountant-specializations">Specializations</a>
+      <a href="https://listmycpa.com/certified-public-accountant-industries">Industries</a>
+      <a href="https://listmycpa.com/firms">CPA Firms</a>
+      <a href="https://listmycpa.com/register" class="btn-nav">List Your Practice</a>
+    </nav>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="usa-badge">🇺🇸 &nbsp; United States CPA Directory</div>
+  <h1>Find <em>Verified</em> Certified Public Accountants Across All 50 American States</h1>
+  <p class="hero-sub">ListMyCPA.com is the United States' most comprehensive directory of licensed CPAs and accounting firms. Search by state, city, specialization, or industry — completely free.</p>
+  <div class="hero-btns">
+    <a href="https://listmycpa.com/certified-public-accountants" class="btn-gold">Find a CPA Near You →</a>
+    <a href="https://listmycpa.com/certified-public-accountant-specializations" class="btn-ghost">Browse Specializations</a>
+  </div>
+</section>
+
+<!-- STATS -->
+<div class="stats">
+  <div class="stats-row">
+    <div class="stat"><span class="stat-n">500,000+</span><span class="stat-l">Registered US CPAs</span></div>
+    <div class="stat"><span class="stat-n">50</span><span class="stat-l">American States Covered</span></div>
+    <div class="stat"><span class="stat-n">20,000+</span><span class="stat-l">US Cities Served</span></div>
+    <div class="stat"><span class="stat-n">Free</span><span class="stat-l">To Search — Always</span></div>
+  </div>
+</div>
+
+<!-- ABOUT -->
+<section class="sec sec-w">
+  <div class="inner">
+    <div class="about-grid">
+      <div class="about-copy">
+        <div class="s-tag">About ListMyCPA.com</div>
+        <h2>America's Most Trusted CPA Directory</h2>
+        <p>ListMyCPA.com connects Americans with certified public accountants across all 50 United States. Whether you need help with personal tax filing, corporate accounting, IRS representation, or financial planning — our directory helps you find the right US-licensed CPA fast.</p>
+        <p>Our database covers every American state, from California to Maine, Texas to Alaska. Listings are organized by specialization and industry so you can find the exact accounting professional your situation requires — without wading through irrelevant results.</p>
+        <p>Every CPA listed on ListMyCPA.com is a verified, licensed professional in the United States. We make it simple for Americans to find trusted local accounting help in their city, county, or state.</p>
+        <a href="https://listmycpa.com/" class="btn-blue">Visit ListMyCPA.com →</a>
+      </div>
+      <div class="about-card">
+        <div class="about-card-title">Why Americans Choose ListMyCPA.com</div>
+        <ul class="hi-list">
+          <li><span class="dot"></span>Search 500,000+ verified CPAs licensed across the United States</li>
+          <li><span class="dot"></span>Browse all 50 US states and 20,000+ American cities</li>
+          <li><span class="dot"></span>Filter by tax specialization, service type, and industry</li>
+          <li><span class="dot"></span>Find CPAs familiar with federal and state-specific US tax laws</li>
+          <li><span class="dot"></span>Connect with IRS-experienced accountants for audit defense</li>
+          <li><span class="dot"></span>Locate CPA firms for businesses of every size across America</li>
+          <li><span class="dot"></span>100% free — no signup required to search the directory</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ALL 50 US STATES -->
+<section class="sec sec-t">
+  <div class="inner">
+    <div class="s-tag">Browse by US State</div>
+    <h2>Find CPAs in Every American State</h2>
+    <p class="lead">Click any US state to browse verified Certified Public Accountants in that state. All 50 American states are covered on ListMyCPA.com.</p>
+    <div class="states-grid">
+      <a href="https://listmycpa.com/certified-public-accountants/alabama" class="state-a">Alabama <span class="arr">→</span></a>
+      <a href="https://listmycpa.com/certified-public-accountants/alaska" class="state-a">Alaska <span class="arr">→</span></a>
+      <a href="https://listmycpa.com/certified-public-accountants/arizona" class="state-a">Arizona <span class="arr">→</span></a>
+      <a href="https://listmycpa.com/certified-public-accountants/arkansas" class="state-a">Arkansas <span class="arr">→</span></a>
+      <a href="https://listmycpa.com/certified-public-accountants/california" class="state-a">California <span class="arr">→</span></a>
+      <a href="https://listmycpa.com/certified-public-accountants/colorado" class="state-a">Colorado <span class="arr">→</span></a>
+      <a href="https://listmycpa.com/certified-public-accountants/connecticut" class="state-a">Connecticut <span class="arr">→</span></a>
+      <a href="https://listmycpa.com/certified-public-accountants/delaware" class="state-a">Delaware <span class="arr">→</span></a>
+      <a href="https://listmycpa.com/certified-public-accountants/district-of-columbia" class="state-a">Washington D.C. <span class="arr">→</span></a>
+      <a href="https://listmycpa.com/certified-public-accountants/florida" class="state-a">Florida <span class="arr">→</span></a>
+      <a href="https://listmycpa.com/certified-public-accountants/georgia" class="state-a">Georgia <span class="arr">→</span></a>
+      <a href="https://listmycpa.com/certified-public-accountants/hawaii" class="state-a">Hawaii <span class="arr">→</span></a>
+      <a href="https://listmycpa.com/certified-public-accountants/idaho" class="state-a">Idaho <span class="arr">→</span></a>
+      <a href="https://listmycpa.com/certified-public-accountants/illinois" class="state-a">Illinois <span class="arr">→</span></a>
+      <a href="https://listmycpa.com/certified-public-accountants/indiana" class="state-a">Indiana <span class="arr">→</span></a>
+      <a href="https://listmycpa.com/certified-public-accountants/iowa" class="state-a">Iowa <span class="arr">→</span></a>
+      <a href="https://listmycpa.com/certified-public-accountants/kansas" class="state-a">Kansas <span class="arr">→</span></a>
+      <a href="https://listmycpa.com/certified-public-accountants/kentucky" class="state-a">Kentucky <span class="arr">→</span></a>
+      <a href="https://listmycpa.com/certified-public-accountants/louisiana" class="state-a">Louisiana <span class="arr">→</span></a>
+      <a href="https://listmycpa.com/certified-public-accountants/maine" class="state-a">Maine <span class="arr">→</span></a>
+      <a href="https://listmycpa.com/certified-public-accountants/maryland" class="state-a">Maryland <span class="arr">→</span></a>
+      <a href="https://listmycpa.com/certified-public-accountants/massachusetts" class="state-a">Massachusetts <span class="arr">→</span></a>
+      <a href="https://listmycpa.com/certified-public-accountants/michigan" class="state-a">Michigan <span class="arr">→</span></a>
+      <a href="https://listmycpa.com/certified-public-accountants/minnesota" class="state-a">Minnesota <span class="arr">→</span></a>
+      <a href="https://listmycpa.com/certified-public-accountants/mississippi" class="state-a">Mississippi <span class="arr">→</span></a>
+      <a href="https://listmycpa.com/certified-public-accountants/missouri" class="state-a">Missouri <span class="arr">→</span></a>
+      <a href="https://listmycpa.com/certified-public-accountants/montana" class="state-a">Montana <span class="arr">→</span></a>
+      <a href="https://listmycpa.com/certified-public-accountants/nebraska" class="state-a">Nebraska <span class="arr">→</span></a>
+      <a href="https://listmycpa.com/certified-public-accountants/nevada" class="state-a">Nevada <span class="arr">→</span></a>
+      <a href="https://listmycpa.com/certified-public-accountants/new-hampshire" class="state-a">New Hampshire <span class="arr">→</span></a>
+      <a href="https://listmycpa.com/certified-public-accountants/new-jersey" class="state-a">New Jersey <span class="arr">→</span></a>
+      <a href="https://listmycpa.com/certified-public-accountants/new-mexico" class="state-a">New Mexico <span class="arr">→</span></a>
+      <a href="https://listmycpa.com/certified-public-accountants/new-york" class="state-a">New York <span class="arr">→</span></a>
+      <a href="https://listmycpa.com/certified-public-accountants/north-carolina" class="state-a">North Carolina <span class="arr">→</span></a>
+      <a href="https://listmycpa.com/certified-public-accountants/north-dakota" class="state-a">North Dakota <span class="arr">→</span></a>
+      <a href="https://listmycpa.com/certified-public-accountants/ohio" class="state-a">Ohio <span class="arr">→</span></a>
+      <a href="https://listmycpa.com/certified-public-accountants/oklahoma" class="state-a">Oklahoma <span class="arr">→</span></a>
+      <a href="https://listmycpa.com/certified-public-accountants/oregon" class="state-a">Oregon <span class="arr">→</span></a>
+      <a href="https://listmycpa.com/certified-public-accountants/pennsylvania" class="state-a">Pennsylvania <span class="arr">→</span></a>
+      <a href="https://listmycpa.com/certified-public-accountants/rhode-island" class="state-a">Rhode Island <span class="arr">→</span></a>
+      <a href="https://listmycpa.com/certified-public-accountants/south-carolina" class="state-a">South Carolina <span class="arr">→</span></a>
+      <a href="https://listmycpa.com/certified-public-accountants/south-dakota" class="state-a">South Dakota <span class="arr">→</span></a>
+      <a href="https://listmycpa.com/certified-public-accountants/tennessee" class="state-a">Tennessee <span class="arr">→</span></a>
+      <a href="https://listmycpa.com/certified-public-accountants/texas" class="state-a">Texas <span class="arr">→</span></a>
+      <a href="https://listmycpa.com/certified-public-accountants/utah" class="state-a">Utah <span class="arr">→</span></a>
+      <a href="https://listmycpa.com/certified-public-accountants/vermont" class="state-a">Vermont <span class="arr">→</span></a>
+      <a href="https://listmycpa.com/certified-public-accountants/virginia" class="state-a">Virginia <span class="arr">→</span></a>
+      <a href="https://listmycpa.com/certified-public-accountants/washington" class="state-a">Washington <span class="arr">→</span></a>
+      <a href="https://listmycpa.com/certified-public-accountants/west-virginia" class="state-a">West Virginia <span class="arr">→</span></a>
+      <a href="https://listmycpa.com/certified-public-accountants/wisconsin" class="state-a">Wisconsin <span class="arr">→</span></a>
+      <a href="https://listmycpa.com/certified-public-accountants/wyoming" class="state-a">Wyoming <span class="arr">→</span></a>
+    </div>
+    <div class="view-all"><a href="https://listmycpa.com/certified-public-accountants" class="btn-blue">View All 50 State CPA Directories →</a></div>
+  </div>
+</section>
+
+<!-- ALL SPECIALIZATIONS -->
+<section class="sec sec-w">
+  <div class="inner">
+    <div class="s-tag">CPA Specializations</div>
+    <h2>Find US CPAs by Service Specialization</h2>
+    <p class="lead">Browse Certified Public Accountants across the United States by their specific accounting and tax service specialization. Every category has hundreds of verified American professionals.</p>
+    <div class="spec-grid">
+      <a href="https://listmycpa.com/certified-public-accountant-specializations/basic-accounting-services" class="spec-a"><span class="si">📒</span> Basic Accounting Services</a>
+      <a href="https://listmycpa.com/certified-public-accountant-specializations/general-accounting-services" class="spec-a"><span class="si">📊</span> General Accounting Services</a>
+      <a href="https://listmycpa.com/certified-public-accountant-specializations/bookkeeping-services" class="spec-a"><span class="si">📚</span> Bookkeeping Services</a>
+      <a href="https://listmycpa.com/certified-public-accountant-specializations/quickbooks-accounting-services" class="spec-a"><span class="si">💻</span> QuickBooks Accounting Services</a>
+      <a href="https://listmycpa.com/certified-public-accountant-specializations/outsourced-accounting-services" class="spec-a"><span class="si">🔄</span> Outsourced Accounting Services</a>
+      <a href="https://listmycpa.com/certified-public-accountant-specializations/forensic-accounting-services" class="spec-a"><span class="si">🔍</span> Forensic Accounting Services</a>
+      <a href="https://listmycpa.com/certified-public-accountant-specializations/individual-tax-return-preparation" class="spec-a"><span class="si">📋</span> Individual Tax Return Preparation</a>
+      <a href="https://listmycpa.com/certified-public-accountant-specializations/nonresident-tax-return-preparation" class="spec-a"><span class="si">🌐</span> Non-Resident Tax Return Preparation</a>
+      <a href="https://listmycpa.com/certified-public-accountant-specializations/nonresident-alien-tax-returns" class="spec-a"><span class="si">✈️</span> Non-Resident Alien Tax Returns</a>
+      <a href="https://listmycpa.com/certified-public-accountant-specializations/marriage-divorce-tax-services" class="spec-a"><span class="si">⚖️</span> Marriage &amp; Divorce Tax Services</a>
+      <a href="https://listmycpa.com/certified-public-accountant-specializations/estate-gift-tax-services" class="spec-a"><span class="si">🏠</span> Estate &amp; Gift Tax Services</a>
+      <a href="https://listmycpa.com/certified-public-accountant-specializations/retirement-account-tax-reporting" class="spec-a"><span class="si">📄</span> Retirement Account Tax Reporting</a>
+      <a href="https://listmycpa.com/certified-public-accountant-specializations/retirement-planning-services" class="spec-a"><span class="si">🏦</span> Retirement Planning Services</a>
+      <a href="https://listmycpa.com/certified-public-accountant-specializations/financial-planning-services" class="spec-a"><span class="si">📈</span> Financial Planning Services</a>
+      <a href="https://listmycpa.com/certified-public-accountant-specializations/corporate-tax-preparation-services" class="spec-a"><span class="si">🏢</span> Corporate Tax Preparation Services</a>
+      <a href="https://listmycpa.com/certified-public-accountant-specializations/s-corporation-tax-services" class="spec-a"><span class="si">🏛️</span> S-Corporation Tax Services</a>
+      <a href="https://listmycpa.com/certified-public-accountant-specializations/partnership-llc-tax-services" class="spec-a"><span class="si">🤝</span> Partnership &amp; LLC Tax Services</a>
+      <a href="https://listmycpa.com/certified-public-accountant-specializations/limited-liability-partnership-llp-services" class="spec-a"><span class="si">📝</span> Limited Liability Partnership Services</a>
+      <a href="https://listmycpa.com/certified-public-accountant-specializations/payroll-sales-tax-services" class="spec-a"><span class="si">💰</span> Payroll &amp; Sales Tax Services</a>
+      <a href="https://listmycpa.com/certified-public-accountant-specializations/sales-tax-compliance-services" class="spec-a"><span class="si">🧾</span> Sales Tax Compliance Services</a>
+      <a href="https://listmycpa.com/certified-public-accountant-specializations/international-tax-services" class="spec-a"><span class="si">🌍</span> International Tax Services</a>
+      <a href="https://listmycpa.com/certified-public-accountant-specializations/foreign-income-assets-reporting" class="spec-a"><span class="si">💱</span> Foreign Income &amp; Assets Reporting</a>
+      <a href="https://listmycpa.com/certified-public-accountant-specializations/business-incorporation-dissolution-services" class="spec-a"><span class="si">📑</span> Business Incorporation &amp; Dissolution</a>
+      <a href="https://listmycpa.com/certified-public-accountant-specializations/business-planning-advisory-services" class="spec-a"><span class="si">🗂️</span> Business Planning &amp; Advisory</a>
+      <a href="https://listmycpa.com/certified-public-accountant-specializations/accounting-consulting-services" class="spec-a"><span class="si">💼</span> Accounting Consulting Services</a>
+      <a href="https://listmycpa.com/certified-public-accountant-specializations/investment-advisory-services" class="spec-a"><span class="si">📉</span> Investment Advisory Services</a>
+      <a href="https://listmycpa.com/certified-public-accountant-specializations/tax-planning-advisory-services" class="spec-a"><span class="si">🎯</span> Tax Planning &amp; Advisory Services</a>
+      <a href="https://listmycpa.com/certified-public-accountant-specializations/delinquent-tax-filing-resolution" class="spec-a"><span class="si">📅</span> Delinquent Tax Filing Resolution</a>
+      <a href="https://listmycpa.com/certified-public-accountant-specializations/tax-payment-penalty-resolution" class="spec-a"><span class="si">🔓</span> Tax Payment &amp; Penalty Resolution</a>
+      <a href="https://listmycpa.com/certified-public-accountant-specializations/irs-notice-correspondence-help" class="spec-a"><span class="si">📬</span> IRS Notice &amp; Correspondence Help</a>
+      <a href="https://listmycpa.com/certified-public-accountant-specializations/irs-appeals-representation-services" class="spec-a"><span class="si">🏛️</span> IRS Appeals &amp; Representation Services</a>
+      <a href="https://listmycpa.com/certified-public-accountant-specializations/tax-audit-assistance-defense" class="spec-a"><span class="si">🛡️</span> Tax Audit Assistance &amp; Defense</a>
+      <a href="https://listmycpa.com/certified-public-accountant-specializations/bankruptcy-tax-services" class="spec-a"><span class="si">⚠️</span> Bankruptcy Tax Services</a>
+      <a href="https://listmycpa.com/certified-public-accountant-specializations/other-accounting-services" class="spec-a"><span class="si">➕</span> Other Accounting Services</a>
+    </div>
+    <div class="view-all"><a href="https://listmycpa.com/certified-public-accountant-specializations" class="btn-blue">View All CPA Specializations →</a></div>
+  </div>
+</section>
+
+<!-- INDUSTRIES -->
+<section class="sec sec-t">
+  <div class="inner">
+    <div class="s-tag">Browse by Industry</div>
+    <h2>Find Industry-Specific CPAs Across the USA</h2>
+    <p class="lead">Connect with American CPAs who have deep expertise in your specific industry. Specialized knowledge means better outcomes for your business or personal finances.</p>
+    <div class="ind-grid">
+      <a href="https://listmycpa.com/certified-public-accountant-industries" class="ind-a">🏥 Healthcare</a>
+      <a href="https://listmycpa.com/certified-public-accountant-industries" class="ind-a">🏠 Real Estate</a>
+      <a href="https://listmycpa.com/certified-public-accountant-industries" class="ind-a">🍽️ Restaurants &amp; Food</a>
+      <a href="https://listmycpa.com/certified-public-accountant-industries" class="ind-a">💻 Technology &amp; Startups</a>
+      <a href="https://listmycpa.com/certified-public-accountant-industries" class="ind-a">🏗️ Construction</a>
+      <a href="https://listmycpa.com/certified-public-accountant-industries" class="ind-a">🛍️ Retail</a>
+      <a href="https://listmycpa.com/certified-public-accountant-industries" class="ind-a">⚖️ Legal Services</a>
+      <a href="https://listmycpa.com/certified-public-accountant-industries" class="ind-a">🎓 Education</a>
+      <a href="https://listmycpa.com/certified-public-accountant-industries" class="ind-a">🚚 Transportation</a>
+      <a href="https://listmycpa.com/certified-public-accountant-industries" class="ind-a">🌾 Agriculture</a>
+      <a href="https://listmycpa.com/certified-public-accountant-industries" class="ind-a">🏭 Manufacturing</a>
+      <a href="https://listmycpa.com/certified-public-accountant-industries" class="ind-a">🎨 Creative &amp; Media</a>
+    </div>
+    <div class="view-all"><a href="https://listmycpa.com/certified-public-accountant-industries" class="btn-blue">Browse All Industries →</a></div>
+  </div>
+</section>
+
+<!-- WHY -->
+<section class="sec sec-n">
+  <div class="inner">
+    <div class="s-tag" style="color:#f5d080;">Why ListMyCPA.com</div>
+    <h2 style="color:#fff;">The Smarter Way for Americans to Find a CPA</h2>
+    <p class="lead" style="color:rgba(255,255,255,0.6);">We built ListMyCPA.com specifically for Americans who need qualified, US-licensed accounting professionals without the hassle.</p>
+    <div class="why-grid">
+      <div class="why-card"><div class="wi">✅</div><h3>Verified US Professionals</h3><p>Every CPA on ListMyCPA.com is a licensed professional verified in their US state. Browse with complete confidence.</p></div>
+      <div class="why-card"><div class="wi">🤖</div><h3>AI-Powered Search</h3><p>Our intelligent search understands natural language. Describe what you need and we match you with the right American CPA instantly.</p></div>
+      <div class="why-card"><div class="wi">📍</div><h3>Local US Expertise</h3><p>Find CPAs who understand your specific state's tax laws, IRS regulations, and federal filing requirements.</p></div>
+      <div class="why-card"><div class="wi">🆓</div><h3>100% Free to Search</h3><p>Searching ListMyCPA.com is completely free for all Americans. No account required to browse or contact CPAs.</p></div>
+      <div class="why-card"><div class="wi">🏭</div><h3>Industry Specialists</h3><p>Find US CPAs who specialize in your industry — from healthcare and real estate to tech startups and manufacturing.</p></div>
+      <div class="why-card"><div class="wi">⚡</div><h3>Save Time</h3><p>Compare multiple American CPAs in one place. View specializations, industries, and contact info all in one directory.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- REGISTER STRIP -->
+<div class="reg-strip">
+  <div class="reg-inner">
+    <div>
+      <div class="s-tag">For US CPA Professionals</div>
+      <h2>Are You a US-Licensed CPA or Accounting Firm?</h2>
+      <p>Join thousands of American CPAs already listed on ListMyCPA.com. Get found by clients across the United States searching for your specific services.</p>
+      <ul>
+        <li>Free professional profile on the USA's largest CPA directory</li>
+        <li>Showcase your specializations and industries served</li>
+        <li>Receive direct inquiries from Americans near you</li>
+        <li>Build credibility with verified credentials and reviews</li>
+        <li>Increase your visibility on Google for US local searches</li>
+      </ul>
+      <a href="https://listmycpa.com/register" class="btn-blue">Register Your US Practice Free →</a>
+    </div>
+    <div class="about-card" style="background:#fff;">
+      <div class="about-card-title">CPA Firms Across the USA Also Welcome</div>
+      <ul class="hi-list">
+        <li><span class="dot"></span>Create a firm profile showcasing your entire team</li>
+        <li><span class="dot"></span>Add multiple CPAs and staff members</li>
+        <li><span class="dot"></span>Highlight services across all US states you serve</li>
+        <li><span class="dot"></span>Generate qualified leads from American businesses</li>
+        <li><span class="dot"></span>Grow your client base organically across the USA</li>
+      </ul>
+      <a href="https://listmycpa.com/firms" style="display:inline-block;margin-top:1rem;color:var(--navy);font-weight:700;font-size:0.9rem;text-decoration:none;">Browse CPA Firms in the USA →</a>
+    </div>
+  </div>
+</div>
+
+<!-- FINAL CTA -->
+<section class="cta">
+  <h2>Ready to Find Your Perfect CPA in the USA?</h2>
+  <p>Search 500,000+ verified Certified Public Accountants across all 50 American states — completely free on ListMyCPA.com.</p>
+  <div style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;">
+    <a href="https://listmycpa.com/certified-public-accountants" class="btn-gold">Find a CPA by US State →</a>
+    <a href="https://listmycpa.com/certified-public-accountant-specializations" class="btn-ghost">Browse by Specialization</a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="ft">
+    <div class="ft-top">
+      <div>
+        <a href="https://listmycpa.com/" class="ft-logo">ListMy<span>CPA</span></a>
+        <p class="ft-desc">ListMyCPA.com is the United States' most comprehensive directory of Certified Public Accountants. Find verified US CPAs by state, city, specialization, and industry — 100% free. Proudly serving all 50 American states.</p>
+        <div class="usa-lbl">🇺🇸 United States Only</div>
+      </div>
+      <div class="ft-col">
+        <h4>Find US CPAs</h4>
+        <a href="https://listmycpa.com/certified-public-accountants">Browse by US State</a>
+        <a href="https://listmycpa.com/certified-public-accountant-specializations">By Specialization</a>
+        <a href="https://listmycpa.com/certified-public-accountant-industries">By Industry</a>
+        <a href="https://listmycpa.com/firms">CPA Firms USA</a>
+        <a href="https://listmycpa.com/register">List Your Practice</a>
+      </div>
+      <div class="ft-col">
+        <h4>Top US States</h4>
+        <a href="https://listmycpa.com/certified-public-accountants/california">California CPAs</a>
+        <a href="https://listmycpa.com/certified-public-accountants/new-york">New York CPAs</a>
+        <a href="https://listmycpa.com/certified-public-accountants/texas">Texas CPAs</a>
+        <a href="https://listmycpa.com/certified-public-accountants/florida">Florida CPAs</a>
+        <a href="https://listmycpa.com/certified-public-accountants/illinois">Illinois CPAs</a>
+        <a href="https://listmycpa.com/certified-public-accountants/pennsylvania">Pennsylvania CPAs</a>
+        <a href="https://listmycpa.com/certified-public-accountants/ohio">Ohio CPAs</a>
+        <a href="https://listmycpa.com/certified-public-accountants/georgia">Georgia CPAs</a>
+      </div>
+      <div class="ft-col">
+        <h4>Resources</h4>
+        <a href="https://listmycpa.com/knowledge-base">Knowledge Base</a>
+        <a href="https://listmycpa.com/blog">Blog</a>
+        <a href="https://listmycpa.com/about">About Us</a>
+        <a href="https://listmycpa.com/contact">Contact Us</a>
+        <a href="https://listmycpa.com/privacy">Privacy Policy</a>
+        <a href="https://listmycpa.com/terms">Terms of Service</a>
+      </div>
+    </div>
+    <div class="ft-bot">
+      <span>© 2026 <a href="https://listmycpa.com/">ListMyCPA.com</a> — USA Certified Public Accountant Directory. All rights reserved. Serving all 50 American states.</span>
+      <span><a href="https://listmycpa.com/terms">Terms</a> &nbsp;·&nbsp; <a href="https://listmycpa.com/privacy">Privacy</a> &nbsp;·&nbsp; <a href="https://listmycpa.com/contact">Contact</a></span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
